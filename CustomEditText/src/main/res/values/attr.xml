@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--        <attr name="textFont" >-->
+    <!--            <enum name="Yekan" value="1"/>-->
+    <!--            <enum name="IranSans" value="2"/>-->
+    <!--        </attr>-->
+
+
+    <attr name="hintIcon" format="integer"/>
+    <attr name="hintText" format="string"/>
+    <attr name="set_text" format="string"/>
+    <declare-styleable name="CustomEditText">
+        <attr name="hintIcon"/>
+        <attr name="input_type" >
+            <flag name="password" value="2"/>
+            <flag name="number" value="3" />
+            <flag name="textEmailAddress" value="4" />
+        </attr>
+        <attr name="hintText"/>
+        <attr name="set_text"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="Password">
+        <attr name="hintIcon"/>
+        <attr name="hintText"/>
+        <attr name="set_text"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="Username">
+        <attr name="hintIcon"/>
+        <attr name="hintText"/>
+        <attr name="set_text"/>
+
+    </declare-styleable>
+
+    <declare-styleable name="EmailAddress">
+        <attr name="hintIcon"/>
+        <attr name="hintText"/>
+        <attr name="set_text"/>
+    </declare-styleable>
+
+    <declare-styleable name="PhoneNumber">
+        <attr name="hintText"/>
+        <attr name="set_text"/>
+    </declare-styleable>
+
+
+
+
+
+</resources>

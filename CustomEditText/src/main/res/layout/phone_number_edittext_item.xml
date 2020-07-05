@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minHeight="50dp"
+    android:padding="4dp"
+    android:layout_height="wrap_content">
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:layout_centerVertical="true"
+        android:id="@+id/spinner1"
+        android:layout_width="76dp"
+        android:layout_marginLeft="8dp"
+        android:entries="@array/countryCode"
+        style="@style/spinner_style"
+        android:layout_height="wrap_content"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/number"
+        android:layout_marginLeft="94dp"
+        android:layout_centerVertical="true"
+        android:hint="@string/phone_number"
+        android:background="#00FFFFFF"
+        android:inputType="number"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

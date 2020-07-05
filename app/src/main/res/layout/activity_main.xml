@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="3dp"
+    android:gravity="center|top"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <custom.edittext.lib.Username
+         android:id="@+id/user"
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <custom.edittext.lib.Password
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <custom.edittext.lib.EmailAddress
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <custom.edittext.lib.PhoneNumber
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <custom.edittext.lib.CustomEditText
+        android:id="@+id/text"
+        app:hintText="Custom Iconic EditText"
+        app:set_text=""
+        app:input_type="textEmailAddress"
+        app:hintIcon="@drawable/search_24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/validate"
+        android:text="Validate"
+        android:textAllCaps="false"
+        android:layout_marginTop="32dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
