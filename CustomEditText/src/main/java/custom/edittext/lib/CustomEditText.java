@@ -53,8 +53,6 @@ public class CustomEditText extends RelativeLayout {
 
             }
 
-
-
     }
     public void setError(String value) {
         txt.setError(value);

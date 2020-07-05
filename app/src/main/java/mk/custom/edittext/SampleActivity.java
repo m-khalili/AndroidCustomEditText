@@ -15,8 +15,7 @@ import custom.edittext.lib.Password;
 import custom.edittext.lib.PhoneNumber;
 import custom.edittext.lib.Username;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-
+public class SampleActivity extends AppCompatActivity implements View.OnClickListener {
     Username user;
     Password pass;
     EmailAddress email;

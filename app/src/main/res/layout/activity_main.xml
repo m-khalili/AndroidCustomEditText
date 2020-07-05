@@ -8,7 +8,7 @@
     android:gravity="center|top"
     android:layout_marginTop="20dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".SampleActivity">
 
     <custom.edittext.lib.Username
          android:id="@+id/user"
