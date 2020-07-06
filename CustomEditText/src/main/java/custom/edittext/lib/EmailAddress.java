@@ -39,7 +39,6 @@ public class EmailAddress extends RelativeLayout {
         if (textValue != null){
             txt.setText(textValue);
         }
-
     }
 
     public  void  setError(String value){
@@ -60,7 +59,6 @@ public class EmailAddress extends RelativeLayout {
 
         return false;
     }
-
 
     public enum ValidationType{
         EMAIL
