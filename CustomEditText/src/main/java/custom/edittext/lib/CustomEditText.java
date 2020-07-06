@@ -1,5 +1,4 @@
 package custom.edittext.lib;
-
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
@@ -46,7 +45,6 @@ public class CustomEditText extends RelativeLayout {
             }
             if (typeValue==3) {
                 txt.setInputType(InputType.TYPE_CLASS_NUMBER);
-
             }
             if (typeValue==4) {
                 txt.setInputType(InputType.TYPE_TEXT_VARIATION_WEB_EMAIL_ADDRESS);
