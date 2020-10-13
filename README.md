@@ -1,5 +1,4 @@
 # AndroidCustomEditText
-# testing
 [![](https://jitpack.io/v/mrmkh/AndroidCustomEditText.svg)](https://jitpack.io/#mrmkh/AndroidCustomEditText)
 
 ```ruby
